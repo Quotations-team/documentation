@@ -1,0 +1,47 @@
+JLevine: Quotations App QA
+
+Test Platform
+QA Operating System: Android 
+QA Operating System version: Android 4.0.3
+QA Device: HTC Amaze
+QA Provider: T-Mobile
+Processor: 1.5 GHz dualcore
+Memory: 1GB
+Display: 4.3 inch HD resolution
+
+QA
+I.	Welcome Screen: Design Assessment
+a. Well-conceived design, well instantiated and rendered.
+b. Elegant, spare design, uncluttered and spacious.
+c. Straight-forward textual declaration atop a focused, uncluttered and interesting graphical background.
+
+II.	Welcome Screen: Content Enhancements
+a. Change ‘Quotations’ text under orange icon to ‘Quote a Day’, or similar.
+b. Shorten ‘A new quote every day from various categories’ to ‘A new quote every day’, or similar.
+
+III.	Welcome Screen: Functional Enhancements
+ a. 3 Pagination circles under ‘Skip’: 
+       1. The pagination circles do not progress from one to the next in time. The user must tap a pagination circle to move to the next screen. This a cumbersome and unnecessary narrative method to apply to the diminutive phone screen. Such a method is also mysterious for the user; if the user doesn’t tap the next circle, the user will not progress beyond the fine and elegant Welcome screen.  
+             i. TO DO: Set a timer for each page to move to the next page.
+             
+          ii.  My sense is that the pages are/are supposed to be/ timed, and are supposed to automatically move to the next page without requiring the user to tap the pagination dots, but that either the programming to do so hasn’t been introduced to the app, or the programming to do add this feature has met with problems.        
+
+          iii. The use may press ‘skip’, and skip the 2 subsequent intro screens altogether.
+
+
+IV.	Quotes Screen Critique
+          
+         a. The quote screen presents the user a list of ‘categories’, and a quote within each category. 
+         b. While the ability of our erstwhile programmer to present the data this way is laudable, and a testament to his fine abilities, this is not “A quote of the day”.
+         i. A list of quotes is confusing to the user, and not useful.
+
+         ii. The objective is not to present a quote database, but only 1 quote, per day, or per some time other time frame.
+
+        iii. “Categories” are also not in the user’s best interest. The user doesn’t need to have the quote interpreted through its placement within a category. This destroys the interactive aspect of the quote presentation, that is, by categorizing a quote, the user, or client, is also informed of the quote’s precise ‘interpretation’ or meaning. 
+               Removing the mystery, and removing the user’s freedom to interpret the quote ensures the words will have little impact, meaning or use to the reader. Mystery is powerful, mystery is necessary and important.
+
+
+
+
+
+
