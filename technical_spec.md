@@ -96,18 +96,23 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 11. **Assets**  
     1. `graphical tool`  
         1. `Resizer_1.3.3`
-        Use to auto resize a image to multiple size to fit android usage.  
+        Used to auto resize a image to multiple size to fit android usage.  
         2. `MS-Paint`
-        Use to edit phone screen shot for tech spec.  
+        Used to edit phone screen shot for tech spec.  
         3. `Markdown`  
-        Use to write and format this tech spec.
+        Used to write and format this tech spec.
+	4. 'Adobe Photoshop & Illustrator'
+	Used to create graphics for app.
      **??? David please edit this part ???**  
     2. `general styles`  
     **??? David please edit this part ???** 
         1. `App icon`:  
         ![alt text](http://hills.ccsf.edu/~yliu192/cs177/app_icon_boxed_icon.png)  
         2. `Backgrounds`: #FF8000 (255, 128, 0)  
-        3. `Font`:   
+        3. `Font`: 
+		Rockwell - for logo
+		Sanchez - for quotes page
+		Helvetica Neue Medium - for category menu
 
 12. **Quotes**  
     1. `quote source credit`  
