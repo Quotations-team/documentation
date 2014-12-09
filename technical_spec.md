@@ -102,9 +102,9 @@ I am guessing what code you had use **??? Saman please edit this part ???**
         2. `Backgrounds`:  
         #FF8000 (255, 128, 0)  
         3. `Font`:  
-	- Rockwell - for logo
-	- Sanchez - for quotes page
-	- Helvetica Neue Medium - for category menu
+	Rockwell - for logo  
+	Sanchez - for quotes page  
+	Helvetica Neue Medium - for category menu  
 
 11. **Quotes**  
     1. `quote source credit`  
