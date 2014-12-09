@@ -21,7 +21,7 @@
     We use online database instead of local phone storage is because we can continue add more quotes remotely, and all user will get it. We have 2 tables "Quotation" store all quotes, and "Category" store all categories. The app will query quotes from Quotation table and display on the screen. Parse.com database is online, so user **HAVE TO** be able to connect to internet to get the quotes.  
     3. `register parse.com account`  
     Developer need to register an account first. After that, you will get application key and 
-client key. Then, download the ParseStarterProject and put in your application key and client key there, then you can run the starter project, build your project on top of it.  
+client key. Then, download the ParseStarterProject and put in your application key and client key there, then you can run the starter project, build your project on top of it. Click here to [start project](https://parse.com/apps/quickstart#parse_data/mobile/android/native/new).  
     4. `parse.com API`  
     After you got a runnable ParseStarterProject. When you create table on parse.com you need to add it to ParseApplication. Click here to see [parse.com API](https://parse.com/docs/android_guide#top).  
     5. `parse.com free usage limitation`  
