@@ -76,8 +76,8 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 	3. `BroadcastReceiver`
 	4. `NotificationManager`
 	5. `Notification`
-	6. `Service / IntentService`
-	**???will edit here after see the page???**
+	6. `Service / IntentService`  
+	**??? will edit here after see the page???**
 	
 9. **Utility created**  
     1. `pseudo random`  
@@ -88,13 +88,13 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 
 10. **Assets**  
     1. `graphical tool`  
-        1. `Resizer_1.3.3`
+        1. `Resizer_1.3.3`  
         Used to auto resize a image to multiple size to fit android usage.  
-        2. `MS-Paint`
+        2. `MS-Paint`  
         Used to edit phone screen shot for tech spec.  
         3. `Markdown`  
         Used to write and format this tech spec.
-	4. 'Adobe Photoshop & Illustrator'
+	4. `Adobe Photoshop & Illustrator`  
 	Used to create graphics for app.
     2. `general styles`  
         1. `App icon`:  
