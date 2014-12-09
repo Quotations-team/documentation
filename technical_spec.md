@@ -48,7 +48,7 @@ I am guessing what code you had use **??? Saman please edit this part ???**
     2. Use Fragment class to create 2 layouts Sign in / Sign up.  
         1. Use 4 EditText and a Button to insert new data to parse.com database, "Users" table, "username, password, email" fields.  
         2. Use 2 EditText and a Button to match query data from parse.com database, "Users" table, "username, password". See parse.com API to find out how to do it.  
-    3. Click the text to go to Home page, with out Sign up or Sign in.  
+    3. A Button without border looks like just text to go to Home page, with out Sign up or Sign in.  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p3_signup_signin_skip_page.png)  
 
 7. **Home Page**  
