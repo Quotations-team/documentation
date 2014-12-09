@@ -99,11 +99,12 @@ I am guessing what code you had use **??? Saman please edit this part ???**
     2. `general styles`  
         1. `App icon`:  
         ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p1_app_icon.png)  
-        2. `Backgrounds`: #FF8000 (255, 128, 0)  
-        3. `Font`: 
-		Rockwell - for logo
-		Sanchez - for quotes page
-		Helvetica Neue Medium - for category menu
+        2. `Backgrounds`:  
+        #FF8000 (255, 128, 0)  
+        3. `Font`:  
+	- Rockwell - for logo
+	- Sanchez - for quotes page
+	- Helvetica Neue Medium - for category menu
 
 11. **Quotes**  
     1. `quote source credit`  
