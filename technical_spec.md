@@ -77,11 +77,13 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 	4. `NotificationManager`
 	5. `Notification`
 	6. `Service / IntentService`
-	**add here after see the page**
+	**???will edit here after see the page???**
 	
 9. **Utility created**  
-    1. `pseudo random` to get random quote  
-    2. `regular expression` for String matching  
+    1. `pseudo random`  
+    to get random quote  
+    2. `regular expression`  
+    for String matching  
     **??? we have it, but might not need this part ???**
 
 10. **Assets**  
