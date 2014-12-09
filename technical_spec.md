@@ -18,7 +18,7 @@
     1. `parse.com`  
     It is free/pay online back-end tools services. Developer can relay on parse.com to take care of the back-end remotely while focus on front-end work. database is one of the services we are using to host our quotes and quote categories. Database, table, and data can be created on parse.com user interface, or by use API parse.com provided kind like using Object-relational mapping. Click here to [parse.com](https://www.parse.com/).  
     2. `database table`  
-    We use online database instead of local phone storage is because we can continue add more quotes remotely, and all user will get it. We have 2 tables "Quotation" store all quotes, and "Category" store all categories. The app will query quotes from Quotation table and display on the screen. Parse.com database is online, so user **HAVE TO** be able to connect to internet to get the quotes.  
+    We use online database instead of local phone storage is because we can continue add more quotes remotely, and all user will get it. We have 2 tables "Quotation" store all quotes, and "Category" store all categories. The app will query quotes from Quotation table and display on the screen. Parse.com database is online, so user **HAVE TO** be able to connect to internet to get the quotes. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p9_parse_com.png)  
     3. `register parse.com account`  
     Developer need to register an account first. After that, you will get application key and 
 client key. Then, download the ParseStarterProject and put in your application key and client key there, then you can run the starter project, build your project on top of it. Click here to [start project](https://parse.com/apps/quickstart#parse_data/mobile/android/native/new).  
