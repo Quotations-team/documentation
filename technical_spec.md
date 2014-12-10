@@ -107,8 +107,8 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 
 11. **Quotes**  
     1. `quote source credit`  
-    	1. http://thewebminer.com/blog/tag/free-famous-quotes-database/
-	2. Bartleby's Familiar Quotations
+     	1. http://thewebminer.com/blog/tag/free-famous-quotes-database/
+    	2. Bartleby's Familiar Quotations 
     2. `legality`  
         1. Copyright 2014 Quotations-team CCSF CS177 Software Engineering  
         2. Fair Use of CopyRighted Material  
