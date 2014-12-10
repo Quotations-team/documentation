@@ -107,9 +107,8 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 
 11. **Quotes**  
     1. `quote source credit`  
-    **??? need to talk about it before edit this part ???**  
+    	http://thewebminer.com/blog/tag/free-famous-quotes-database/
     2. `legality`  
-    **??? Jeffrey please edit this part ???**  
         1. Copyright 2014 Quotations-team CCSF CS177 Software Engineering  
         2. Fair Use of CopyRighted Material  
         3. Fair use guidelines for educational multimedia  
