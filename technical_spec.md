@@ -71,13 +71,8 @@ I am guessing what code you had use **??? Saman please edit this part ???**
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p8_logout.png)
 
 8. **Notification**
-    1. `AlarmManager`
-	2. `PendingIntent`
-	3. `BroadcastReceiver`
-	4. `NotificationManager`
-	5. `Notification`
-	6. `Service / IntentService`  
-	**??? will edit here after see the page???**
+    1. `Parse push notification`  
+    Use the push notification from parse.com instead of notification from Android class API. Follow this link to tutorial [Parse push notification](https://parse.com/docs/push_guide#top/iOS).
 	
 9. **Utility created**  
     1. `pseudo random`  
