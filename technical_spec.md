@@ -53,7 +53,7 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 
 7. **Home Page**  
     1. `ListView with custom view for each item`  
-    The home page will show quotes by android class ListVeiw, order by category. By customize the view instead of using the build-in view for each list item, we can add image to each list item and format the displaying text. The build in view only allow text.  
+    The home page will show quotes by android class ListVeiw, order by popularity of paste 24 hr. By customize the view instead of using the build-in view for each list item, we can add image to each list item and format the displaying text. The build in view only allow text.  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p4_home_page.png)  
     2. `EndlessScrollListener`  
     When user scroll down, more quote will show up until the last quote, this is done by EndlessScrollListener. It request more item if over the threshold of remaining item before the end of current page. It is more useful for loading huge amount of data or data size will keep on growing by the second; which only load a small amount at a time not all at once to your device, so the wait time will be cut into section, or not overflow your View class capacity. First download a already  make EndlessScrollListener.java, find one that come with documentation that tell you how to use it. Some useful parameter or variable for your app to use or pass in; EX: "page" load more base on fix number of item consider one page, "totalItemsCount" load more base on number of item reached, "visibleThreshold" start load more base on how many items left before reach the end of current page. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p10_endlessscrolllistener.png)  
