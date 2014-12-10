@@ -40,7 +40,8 @@ client key. Then, download the ParseStarterProject and put in your application k
 	
 5. **Splash Screen**  
     1. `Handler`  
-    To set wait time by use Handler class to create a thread to wait for amount of time. Usually splash screen is use to load up stuff for the app. The wait time can be longer, usually have a nice background logo image or text displaying.  
+    To set wait time by use Handler class to create a thread to wait for amount of time. Usually splash screen is use to load up stuff for the app. The wait time can be longer, usually have a nice background logo image or text displaying.
+    Splash screen will replace signin page if user already signin, display only for 1 second.  
 
 6. **Sign up / Sign in / skip page**
 I am guessing what code you had use **??? Saman please edit this part ???**  
@@ -64,11 +65,14 @@ I am guessing what code you had use **??? Saman please edit this part ???**
     This menu contain category of quotes. By select one of them, home page will only show quotes from selected category. **??? Saman please edit this part ???**  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p6_navigation_drawer_overflow_menu.png)  
     5. `SearchView`   
-    In ActionBar embeded SearchView use as a search box that can expand out to long text field when using, contract to an icon when not using. It need SearchManager to access the SEARCH_SERVICE. It take number and letter String as search key input, it does "and" search only, it use the user input String to match each quotes in the current category that we query from the online database parse.com, user input need to match exactly. The "magnifying glass" use to expand to search field. The "X" icon is both use to clear the search field and to contract back to icon.   
+    In ActionBar embeded SearchView use as a search box that can expand out and contract to an icon. It need SearchManager to access the SEARCH_SERVICE. The search is an "logical AND" search, all key words have to be in the same quote, in any location. It search all the quotes query from the online database parse.com. The "magnifying glass" use to expand to search field. The "X" icon is both use to clear the search field and to contract back to icon.   
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p7_home_page_embeded_searchview.png)  
     6. `Menu`  
-    When clicking on the Menu, menu item "Logout" on the upper right it will go to Sign up / Sign in / skip page.  
-    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p8_logout.png)
+        1. `menu item "Logout"`  
+        It will go to Sign up / Sign in / skip page.  
+        ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p8_logout.png)  
+        2. `menu item "Favorites"`  
+        It will go to Favorites page.  
 
 8. **Notification**
     1. `Parse push notification`  
@@ -95,7 +99,7 @@ I am guessing what code you had use **??? Saman please edit this part ???**
         1. `App icon`:  
         ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p1_app_icon.png)  
         2. `Backgrounds`:  
-        #FF8000 (255, 128, 0)  
+        #FF8000 (255, 128, 0), orange  
         3. `Font`:  
 	Rockwell - for logo  
 	Sanchez - for quotes page  
