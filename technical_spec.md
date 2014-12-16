@@ -18,14 +18,22 @@
     1. `parse.com`  
     It is free/pay online back-end tools services. Developer can relay on parse.com to take care of the back-end remotely while focus on front-end work. database is one of the services we are using to host our quotes and quote categories. Database, table, and data can be created on parse.com user interface, or by use API parse.com provided kind like using Object-relational mapping. Click here to [parse.com](https://www.parse.com/).  
     2. `database table`  
-    We use online database instead of local phone storage is because we can continue add more quotes remotely, and all user will get it. We have 2 tables "Quotation" store all quotes, and "Category" store all categories. The app will query quotes from Quotation table and display on the screen. Parse.com database is online, so user **HAVE TO** be able to connect to internet to get the quotes. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p9_parse_com.png)  
+    We use online database instead of local phone storage is because we can continue add more quotes remotely, and all user will get it. We have 2 tables "Quotation" store all quotes, and "Category" store all categories. The app will query quotes from Quotation table and display on the screen. Parse.com database is online, so user **HAVE TO** be able to connect to internet to get the quotes. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p12_parse_com.png)  
     3. `register parse.com account`  
     Developer need to register an account first. After that, you will get application key and 
 client key. Then, download the ParseStarterProject and put in your application key and client key there, then you can run the starter project, build your project on top of it. Click here to [start project](https://parse.com/apps/quickstart#parse_data/mobile/android/native/new).  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p13_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p14_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p15_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p16_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p17_parse_com_start_project.png)  
     4. `parse.com API`  
     After you got a runnable ParseStarterProject. When you create table on parse.com you need to add it to ParseApplication. Click here to see [parse.com API](https://parse.com/docs/android_guide#top).  
-    5. `parse.com free usage limitation`  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p18_parse_com_start_project.png)  
+    5. `parse.com free usage limitation and tracker`  
     Limitation can be change all the time please check it once a while. Free account gets 30 request per second per one jab.  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p19_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p20_parse_com_start_project.png)  
 
 3. **General Layout**  
     1. `screenOrientation`  
@@ -51,13 +59,16 @@ I am guessing what code you had use **??? Saman please edit this part ???**
         2. Use 2 EditText and a Button to match query data from parse.com database, "Users" table, "username, password". See parse.com API to find out how to do it.  
     3. A Button without border looks like just text to go to Home page, with out Sign up or Sign in.  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p3_signup_signin_skip_page.png)  
+    4. Difference between signin and not signin.  
+    Only signin user can give "like", leave "comment", and add to personal "favorite" quotes.  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p10_login_skip_differ.png)  
 
 7. **Home Page**  
     1. `ListView with custom view for each item`  
     The home page will show quotes by android class ListVeiw, order by popularity of paste 24 hr. By customize the view instead of using the build-in view for each list item, we can add image to each list item and format the displaying text. The build in view only allow text.  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p4_home_page.png)  
     2. `EndlessScrollListener`  
-    When user scroll down, more quote will show up until the last quote, this is done by EndlessScrollListener. It request more item if over the threshold of remaining item before the end of current page. It is more useful for loading huge amount of data or data size will keep on growing by the second; which only load a small amount at a time not all at once to your device, so the wait time will be cut into section, or not overflow your View class capacity. First download a already  make EndlessScrollListener.java, find one that come with documentation that tell you how to use it. Some useful parameter or variable for your app to use or pass in; EX: "page" load more base on fix number of item consider one page, "totalItemsCount" load more base on number of item reached, "visibleThreshold" start load more base on how many items left before reach the end of current page. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p10_endlessscrolllistener.png)  
+    When user scroll down, more quote will show up until the last quote, this is done by EndlessScrollListener. It request more item if over the threshold of remaining item before the end of current page. It is more useful for loading huge amount of data or data size will keep on growing by the second; which only load a small amount at a time not all at once to your device, so the wait time will be cut into section, or not overflow your View class capacity. First download a already  make EndlessScrollListener.java, find one that come with documentation that tell you how to use it. Some useful parameter or variable for your app to use or pass in; EX: "page" load more base on fix number of item consider one page, "totalItemsCount" load more base on number of item reached, "visibleThreshold" start load more base on how many items left before reach the end of current page. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p11_endlessscrolllistener.png)  
     3. `navigation drawer`  
     User can bring out the overflow menu by press the ActionBar icon on the upper left, or the icon on the upper right, or slide a finger from left edge of screen by using ActionBarDrawerToggle, DrawerLayout, ListView, and android.support.v4.widget.DrawerLayout. Developer can just use a Menu instead of navigation drawer to do the same thing. **??? Saman please edit this part ???**  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p5_home_page_navigation_drawer.png)  
@@ -72,7 +83,8 @@ I am guessing what code you had use **??? Saman please edit this part ???**
         It will go to Sign up / Sign in / skip page.  
         ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p8_logout.png)  
         2. `menu item "Favorites"`  
-        It will go to Favorites page.  
+        If user had signup and login, there will be a Favorites menu item. It will go to Favorites page.  
+        ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p9_login_favorite.png)  
 
 8. **Notification**
     1. `Parse push notification`  
