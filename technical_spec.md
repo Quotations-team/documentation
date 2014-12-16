@@ -88,13 +88,16 @@ I am guessing what code you had use **??? Saman please edit this part ???**
 
 8. **Notification**
     1. `Parse push notification`  
-    Use the push notification from parse.com instead of notification from Android class API. Follow this link to tutorial [Parse push notification](https://parse.com/docs/push_guide#top/iOS).
+    Use the push notification from parse.com instead of notification from Android class API. Follow this link to tutorial [Parse push notification](https://parse.com/docs/push_guide#top/Android).  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p21_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p22_parse_com_start_project.png)  
 	
 9. **Utility created**  
     1. `pseudo random`  
     to get random quote  
     2. `regular expression`  
     for String matching  
+    3. `android standard version of notification`  
     **??? we have it, but might not need this part ???**
 
 10. **Assets**  
