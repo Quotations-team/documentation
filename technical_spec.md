@@ -90,6 +90,7 @@ client key. Then, download the ParseStarterProject and put in your application k
     Use the push notification from parse.com instead of notification from Android class API. Notification happen only when we puch. Follow this link to tutorial [Parse push notification](https://parse.com/docs/push_guide#top/Android).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p21_parse_com_start_project.png)  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p22_parse_com_start_project.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p23_notification.png)  
 	
 9. **Utility created**  
     1. `pseudo random`  
