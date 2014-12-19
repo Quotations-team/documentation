@@ -19,21 +19,29 @@
     It is free/pay online back-end tools services. Developer can relay on parse.com to take care of the back-end remotely while focus on front-end work. database is one of the services we are using to host our quotes and quote categories. Database, table, and data can be created on parse.com user interface, or by use API parse.com provided kind like using Object-relational mapping. Click here to [parse.com](https://www.parse.com/).  
     2. `database table`  
     It is remote database, we add quotes using parse interface, user can add data like registering new user. "Quotation" table store all quotes, and "Category" store all categories. The app will query quotes from Quotation table. User **HAVE TO** be able to connect to internet to get the quotes. ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p12_parse_com.png)  
+    Your can export your database with RESTful API in JSON format as a zip file which send to your email.  
+    Click here to [parse.com RESTful API](https://www.parse.com/docs/rest).  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p25_parse_com_restful_api.png)  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p26_parse_com_export.png)  
     3. `register parse.com account`  
     Developer need to register an account first. After that, you will get application key and 
 client key. Then, download the ParseStarterProject and put in your application key and client key there, then you can run the starter project, build your project on top of it. Click here to [start project](https://parse.com/apps/quickstart#parse_data/mobile/android/native/new).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p13_parse_com_start_project.png)  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p14_parse_com_start_project.png)  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p15_parse_com_start_project.png)  
+    Click here to see your [Account key](https://parse.com/account/keys).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p16_parse_com_start_project.png)  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p17_parse_com_start_project.png)  
     4. `parse.com API`  
     After you got a runnable ParseStarterProject. When you create table on parse.com you need to add it to ParseApplication. Click here to see [parse.com API](https://parse.com/docs/android_guide#top).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p18_parse_com_start_project.png)  
     5. `parse.com free usage limitation and tracker`  
-    Limitation can be change all the time please check it once a while. Free account gets 30 request per second per one jab.  
+    Limitation can be change all the time please check it once a while. Free account gets 30 request per second per one jab.  Click here to see [Account limitation](https://www.parse.com/account).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p19_parse_com_start_project.png)  
+    Click here to see [Your Dashboard](https://www.parse.com/apps).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p20_parse_com_start_project.png)  
+    Dashboard bring you to your database, tracker tools, and send push notification.  
+    ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p24_parse_com_data_tracker.png) 
 
 3. **General Layout**  
     1. `screenOrientation`  
@@ -87,8 +95,9 @@ client key. Then, download the ParseStarterProject and put in your application k
 
 8. **Notification**
     1. `Parse push notification`  
-    Use the push notification from parse.com instead of notification from Android class API. Notification happen only when we puch. Follow this link to tutorial [Parse push notification](https://parse.com/docs/push_guide#top/Android).  
+    Use the push notification from parse.com instead of notification from Android class API. Notification happen only when we puch. Follow this link to tutorial [Parse push notification API](https://parse.com/docs/push_guide#top/Android).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p21_parse_com_start_project.png)  
+    [To send push notification](https://parse.com/apps/quotation/push_notifications/new).  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p22_parse_com_start_project.png)  
     ![alt text](http://hills.ccsf.edu/~yliu192/cs177/p23_notification.png)  
 	
